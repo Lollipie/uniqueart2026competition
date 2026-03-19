@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今天的校園，明天的夢想 2026 | Unique Art</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700;900&display=swap');
+        body { font-family: 'Noto Sans TC', sans-serif; scroll-behavior: smooth; }
+        .legal-section { border-left: 4px solid #6366f1; padding-left: 1.5rem; margin-bottom: 2rem; }
+        .fade-in { animation: fadeIn 0.4s ease-in-out; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .bg-pattern {
+            background-color: #f8fafc;
+            background-image: radial-gradient(#e2e8f0 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+        }
+        .text-shadow-sm { text-shadow: 0 1px 2px rgba(0,0,0,0.05); }
+    </style>
+</head>
+<body class="bg-pattern text-slate-800 min-h-screen">
+
+    <!-- Header / Logo Area -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 py-4 px-6">
+        <div class="max-w-4xl mx-auto flex justify-between items-center">
+            <div class="font-black text-indigo-600 text-2xl tracking-tighter">Unique Art</div>
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/85251111920" class="hidden sm:flex bg-[#25D366] text-white px-5 py-2 rounded-full text-sm font-bold items-center shadow-md hover:scale-105 transition">
+                    <i class="fab fa-whatsapp mr-2"></i> 查詢: 5111 1920
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page 1: Summary View -->
+    <div id="view-summary" class="fade-in max-w-5xl mx-auto px-6 py-10">
+        <!-- Hero Section -->
+        <div class="text-center mb-12">
+            <p class="text-indigo-600 font-bold tracking-widest text-sm mb-2 uppercase">2026 兒童繪畫比賽</p>
+            <h1 class="text-2xl md:text-5xl font-black text-slate-900 mb-2 leading-tight">「今天的校園，明天的夢想」</h1>
+            <h2 class="text-lg md:text-2xl text-indigo-500 font-bold mb-6 tracking-tight">Today's Campus, Tomorrow's Dream</h2>
+            <p class="text-md text-slate-500 max-w-2xl mx-auto font-light leading-relaxed">
+                引導孩子把現在的校園生活和未來的理想生活連結起來。<br>
+                讓孩子主導創意，展現獨特的藝術風格。
+            </p>
+        </div>
+
+        <!-- Quick Info Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <!-- 1. Groups -->
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex items-start hover:shadow-md transition">
+                <div class="bg-indigo-100 p-3 rounded-2xl text-indigo-600 mr-4">
+                    <i class="fas fa-user-graduate text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-1 text-slate-900">參賽對象</h3>
+                    <p class="text-slate-500 text-sm">初小組 (P1-P3)<br>高小組 (P4-P6)</p>
+                </div>
+            </div>
+
+            <!-- 2. Prizes -->
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex items-start hover:shadow-md transition">
+                <div class="bg-yellow-100 p-3 rounded-2xl text-yellow-600 mr-4">
+                    <i class="fas fa-trophy text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-1 text-slate-900">獎項設置</h3>
+                    <p class="text-slate-500 text-sm">冠、亞、季、殿軍<br><span class="text-purple-600 font-bold">及多項特別獎項</span></p>
+                </div>
+            </div>
+
+            <!-- 3. Size -->
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex items-start hover:shadow-md transition">
+                <div class="bg-green-100 p-3 rounded-2xl text-green-600 mr-4">
+                    <i class="fas fa-expand text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-1 text-slate-900">作品規格</h3>
+                    <p class="text-slate-500 text-sm">A4 (210 x 297mm)<br>手繪實體作品</p>
+                </div>
+            </div>
+
+            <!-- 4. Duration -->
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex items-start hover:shadow-md transition">
+                <div class="bg-blue-100 p-3 rounded-2xl text-blue-600 mr-4">
+                    <i class="fas fa-clock text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-1 text-slate-900">創作時數</h3>
+                    <p class="text-slate-500 text-sm">每位 3 小時<br>(建議分成兩堂完成)</p>
+                </div>
+            </div>
+
+            <!-- 5. Fees -->
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex items-start hover:shadow-md transition">
+                <div class="bg-pink-100 p-3 rounded-2xl text-pink-600 mr-4">
+                    <i class="fas fa-wallet text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-1 text-slate-900">報名費用</h3>
+                    <p class="text-slate-500 text-sm">含行政、專業畫材、<span class="text-pink-600 font-bold">證書</span><br>及實體紀念繪本一冊</p>
+                </div>
+            </div>
+
+            <!-- 6. Location -->
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 flex items-start hover:shadow-md transition">
+                <div class="bg-purple-100 p-3 rounded-2xl text-purple-600 mr-4">
+                    <i class="fas fa-map-marker-alt text-xl"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-1 text-slate-900">創作地點</h3>
+                    <p class="text-slate-500 text-xs leading-snug">香港仔香港仔大道208號<br>裕輝商業中心 16 樓 Unique Art</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main CTA Button -->
+        <div class="flex flex-col items-center space-y-4">
+            <button onclick="showDetails()" class="group relative bg-indigo-600 text-white w-full max-w-md py-5 rounded-2xl font-black text-xl shadow-xl shadow-indigo-100 hover:bg-indigo-700 hover:scale-[1.02] transition-all flex items-center justify-center">
+                查看詳細章程及評審準則
+                <i class="fas fa-chevron-right ml-3 text-sm group-hover:translate-x-1 transition-transform"></i>
+            </button>
+            <p class="text-slate-400 text-xs italic">內附版權歸屬、評審佔分及作品保管細則</p>
+        </div>
+    </div>
+
+    <!-- Page 2: Detailed Rules View -->
+    <div id="view-details" class="hidden fade-in max-w-3xl mx-auto px-6 py-12">
+        <!-- Back Button -->
+        <button onclick="showSummary()" class="mb-8 flex items-center text-indigo-600 font-bold hover:text-indigo-800 transition">
+            <i class="fas fa-arrow-left mr-2"></i> 返回簡介
+        </button>
+
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-black text-slate-900 mb-2 leading-tight">官方比賽章程及評審準則</h2>
+            <h3 class="text-lg text-indigo-500 font-bold mb-4">Official Rules & Judging Criteria</h3>
+            <div class="w-16 h-1 bg-indigo-500 mx-auto rounded-full"></div>
+        </div>
+
+        <!-- 評審準則 (New Section) -->
+        <section class="legal-section">
+            <h2 class="text-xl font-bold text-indigo-900 mb-4 flex items-center">
+                <i class="fas fa-check-double mr-3"></i> 1. 評審準則
+            </h2>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-slate-700 font-bold">貼切主題</span>
+                    <span class="text-indigo-600 font-black">40%</span>
+                </div>
+                <div class="flex items-center justify-between border-b pb-2">
+                    <span class="text-slate-700 font-bold">創意度</span>
+                    <span class="text-indigo-600 font-black">40%</span>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-slate-700 font-bold">繪畫技巧及色彩美感</span>
+                    <span class="text-indigo-600 font-black">20%</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sections -->
+        <section class="legal-section">
+            <h2 class="text-xl font-bold text-indigo-900 mb-4 flex items-center">
+                <i class="fas fa-award mr-3"></i> 2. 獎項設置
+            </h2>
+            <p class="text-sm text-slate-600 mb-4">每個組別（初小組及高小組）均設有以下獎項：</p>
+            <ul class="grid grid-cols-2 gap-3 text-sm text-slate-700 font-bold mb-4">
+                <li class="bg-white p-3 rounded-lg border border-slate-100">🏆 冠軍 (1名)</li>
+                <li class="bg-white p-3 rounded-lg border border-slate-100">🏆 亞軍 (1名)</li>
+                <li class="bg-white p-3 rounded-lg border border-slate-100">🏆 季軍 (1名)</li>
+                <li class="bg-white p-3 rounded-lg border border-slate-100">🏆 殿軍 (1名)</li>
+                <li class="bg-white p-3 rounded-lg border border-slate-100 col-span-2 text-center">🎖️ 優異獎 (5名)</li>
+            </ul>
+            <div class="bg-purple-50 p-4 rounded-xl border border-purple-100 mb-4">
+                <p class="font-bold text-purple-800 mb-2">🌟 特別獎項：</p>
+                <ul class="text-sm text-purple-700 space-y-1">
+                    <li>• 最佳色彩大獎</li>
+                    <li>• 最佳創意大獎</li>
+                    <li>• 最受歡迎創作大獎</li>
+                </ul>
+            </div>
+            <p class="text-sm text-indigo-600 font-bold italic"><i class="fas fa-certificate mr-1"></i> 所有成功參賽者均可申請參與證書</p>
+        </section>
+
+        <section class="legal-section">
+            <h2 class="text-xl font-bold text-indigo-900 mb-4 flex items-center">
+                <i class="fas fa-file-contract mr-3"></i> 3. 創作規則與保管
+            </h2>
+            <div class="space-y-4 text-slate-600 text-sm">
+                <p>● <strong>現場完成：</strong> 作品必須於 Unique Art 工作室現場在 <span class="font-black text-indigo-600 underline">3 小時</span> 內完成。<span class="text-red-500 font-bold">（限時）</span>
+                   <span class="block mt-2 bg-green-100 text-green-800 p-2 rounded-lg font-bold">建議分成兩堂，每堂 90 分鐘完成。</span>
+                </p>
+                <p>● <strong>實體規格：</strong> <span class="font-bold underline">謹</span> A4 (210 x 297mm) 實體手繪作品，不接受電腦繪圖或 AI 生成。</p>
+                <p>● <strong>保管政策：</strong> 完成後作品由畫室保管，用於繪本製作。如遇不可抗力因素導致損壞，不設金錢賠償。</p>
+                <p class="font-bold text-pink-600 bg-pink-50 p-4 rounded-xl border border-pink-100">重要提示：為確保繪本印製順利進行，所有參賽作品概不發還。</p>
+            </div>
+        </section>
+
+        <section class="legal-section">
+            <h2 class="text-xl font-bold text-indigo-900 mb-4 flex items-center">
+                <i class="fas fa-balance-scale mr-3"></i> 4. 法律條款
+            </h2>
+            <div class="space-y-4 text-sm text-slate-600 leading-relaxed bg-white p-5 rounded-2xl border border-slate-100">
+                <p>1. 本章則如有未盡善之處，主辦機構有權作任何修訂。</p>
+                <p>2. 參賽者參加此活動即同意主辦機構把比賽作品用作宣傳、發表或展覽之用。</p>
+                <p>3. 所有作品一經遞交，均不獲退還，其設計版權及其管理權將全屬主辦機構所擁有。</p>
+                <p>4. 比賽結果以評審團的最後判決作準，參賽者均不得異議，本比賽不設上訴機制。</p>
+                <p>5. 主辦機構保留解釋及修訂比賽規則的權利。</p>
+            </div>
+        </section>
+
+        <!-- Back to Top CTA -->
+        <div class="mt-12 text-center">
+            <button onclick="showSummary()" class="text-indigo-600 underline font-bold">回到首頁</button>
+        </div>
+    </div>
+
+    <!-- Persistent Footer / WhatsApp Bar -->
+    <div class="fixed bottom-0 left-0 right-0 p-4 bg-white/90 backdrop-blur-md border-t border-slate-100 flex justify-center space-x-3 z-50">
+        <a href="https://wa.me/85251111920" class="w-full max-w-md bg-[#25D366] text-white text-center py-4 rounded-2xl font-black text-lg flex items-center justify-center shadow-lg shadow-green-100 active:scale-95 transition">
+            <i class="fab fa-whatsapp mr-3 text-2xl"></i> WhatsApp 查詢: 5111 1920
+        </a>
+    </div>
+
+    <div class="h-24"></div>
+
+    <script>
+        function showDetails() {
+            document.getElementById('view-summary').classList.add('hidden');
+            document.getElementById('view-details').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function showSummary() {
+            document.getElementById('view-details').classList.add('hidden');
+            document.getElementById('view-summary').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
